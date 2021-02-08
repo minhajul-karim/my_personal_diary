@@ -1,0 +1,77 @@
+body {
+  margin: 5%;
+  font-family: 'Lato', sans-serif;
+  overflow-y: scroll;
+}
+
+.title {
+  color: #16697a;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#entries,
+#entryForm {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#entryForm {
+  position: relative;
+}
+
+.entry-textbox {
+  background-color: #ffa62b;
+  width: 100%;
+  height: 10em;
+  padding: 1.5em;
+  margin-bottom: 0.5em;
+  border: unset;
+  border-radius: 25px;
+  resize: none;
+}
+
+.entry-textbox:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #000;
+}
+
+#entryForm .button {
+  border: unset;
+  border-radius: 25px;
+  padding: 5px 16px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+
+#entries {
+  background: #16697a;
+  color: #ede7e3;
+  font-family: cursive;
+  padding: 1rem 1.5rem 3em 1.5rem;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 3em;
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+  position: relative;
+}
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button {
+  margin: 0.2em;
+}
+
+.display-delete-button {
+  position: absolute;
+  left: 25px;
+  bottom: 15px;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
+}
